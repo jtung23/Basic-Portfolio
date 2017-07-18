@@ -93,14 +93,17 @@ h2 {
 .about-img {
 	width: 320px;
 	height:210px;
+	margin-left:20px;
 	display: inline-block;
+	position: relative;
+	float: left;
 }
 
 .about-text {
-	width:570px;
-	margin-left: 20px;
-	margin-right: 20px;
-	vertical-align:top;
+	width:500px;
+	height: auto;
+	display:inline;
+	text-align: right;
 }
 
 .right-div {
