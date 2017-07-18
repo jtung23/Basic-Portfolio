@@ -1,5 +1,8 @@
+/* For all htmls */
+
 body {
 	width: 960px;
+	height:auto;
 }
 
 html {
@@ -11,15 +14,17 @@ h1 {
 	display: inline;
 	position: relative;
 	left:30px;
-	bottom: 4px;
-	padding: 25px;
+	padding: 18px;
 	font-family:'Georgia', Times, 'Times New Roman', serif;
 	color: #ffffff;
+	font-weight: bold;
+	font-size: 20pt;
 }
 
 .heading-font {
 	font-family:'Georgia', Times, 'Times New Roman', serif;
 	color: #4aaaa5;
+	font-weight: bold;
 }
 
 .font-family {
@@ -32,20 +37,12 @@ h1 {
 	border-color: #cccccc;
 }
 
-.icon{
-	width:48px;
-	height:48px;
-	position: relative;
-	left: 56px;
-	bottom: 20px;
-	margin-bottom: 30px;
-}
 .list {
 	list-style: none;
 	float: right;
 	position: relative;
 	right: 30px;
-	top: 13.5px;
+	top: 11.5px;
 	margin: 0;
 	font-size: 14pt;
 	font-weight: bold;
@@ -54,21 +51,37 @@ h1 {
 
 .top-list {
 	display: inline;
-	margin: 10px
+	margin: 10px;
+
 }
 
 .list-border {
-	border-left: solid;
-	border-right: solid;
+	border-left: solid #aeafaf;
+	border-right: solid #aeafaf;
 	padding-left: 26px;
 	padding-right: 26px;
 }
 
+/* Below Header */
+
 .bottom-div {
 	background-image:url("../images/whirlpool.png");
-	height: auto;
+	min-height:100%;
+	padding-bottom: 100px;
 }
-.About-div {
+
+h2 {
+	font-size: 20pt;
+	border-bottom: solid #cccccc;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width:570px;
+	padding: 20px;
+	padding-top: 17px;
+}
+
+.main-content {
 	width:650px;
 	color: #777777;
 	background-color:#ffffff;
@@ -80,31 +93,7 @@ h1 {
 	margin-bottom: 20px;
 }
 
-h2 {
-	font-size: 20pt;
-	border-bottom: solid #cccccc;
-	margin-left: 20px;
-	margin-right: 20px;
-	width:570px;
-	padding: 20px;
-	padding-top: 17px;
-}
-
-.about-img {
-	width: 320px;
-	height:210px;
-	margin-left:20px;
-	display: inline-block;
-	position: relative;
-	float: left;
-}
-
-.about-text {
-	width:500px;
-	height: auto;
-	display:inline;
-	text-align: right;
-}
+/* START Sidebar */
 
 .right-div {
 	background-color: #ffffff;
@@ -122,12 +111,93 @@ h3 {
 	border-bottom:solid #cccccc;
 	width:200px;
 	text-align:center;
-	margin: 33px;
+	margin-bottom: 33px;
+	padding: 20px;
+	padding-top: 17px;
+	margin-left:13px;
 }
+
+#icon {
+	width:48px;
+	height:48px;
+	position: relative;
+	left: 56px;
+	bottom: 20px;
+	margin-bottom: 30px;
+}
+
+/* END Sidebar */
+
+/* Sticky footer */
 
 .footer {
 	border-top: solid 15px #4aaaa5;
 	background-color:#666666;
 	text-align: center;
 	padding: 20px;
+	color: #939393;
 }
+
+/* END FOR ALL HTMLS */
+
+/* index.html */
+
+#about-img {
+	margin-left:20px;
+	display: inline-block;
+	position: relative;
+	float: left;
+	padding: 10px;
+	padding-left: 0px;
+	padding-right:15px;
+
+}
+
+#about-text {
+	width:500px;
+	height: auto;
+	display:inline;
+	text-align: justify;
+}
+
+#text {
+	padding: 20px;
+	padding-top: 9px;
+}
+
+/* END index.html */
+
+/* START contact.html */
+
+#form {
+	float:left;
+	padding-left: 20px;
+	font-size:14pt;
+}
+
+input {
+	margin-bottom:10px;
+	margin-top: 10px;
+	width: 500px;
+}
+
+#message {
+	height: 300px;
+	width: 500px;
+	margin-bottom:10px;
+	margin-top: 10px;
+	overflow: scroll;
+}
+
+#submit {
+	width: 120px;
+	height: 40px;
+	background: #4aaaa5;
+	border: solid #4aaaa5;
+	padding: 10px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color:#ffffff;
+}
+
+
