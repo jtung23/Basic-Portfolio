@@ -9,18 +9,21 @@ html {
 }
 
 h1 {
-	background: #4aaaa5;
 	display: inline;
 	position: relative;
 	left:30px;
 	padding: 18px;
-	font-family:'Georgia', Times, 'Times New Roman', serif;
-	color: #ffffff;
-	font-weight: bold;
 	font-size: 20pt;
 }
 
-.heading-font {
+h1, h4 {
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #4aaaa5;
+}
+
+ul, h2, h3 {
 	font-family:'Georgia', Times, 'Times New Roman', serif;
 	color: #4aaaa5;
 	font-weight: bold;
@@ -36,7 +39,7 @@ h1 {
 	border-color: #cccccc;
 }
 
-.list {
+ul {
 	list-style: none;
 	float: right;
 	position: relative;
@@ -53,19 +56,19 @@ li {
 	margin: 10px;
 }
 
-.list-border {
-	border-left: solid #aeafaf;
-	border-right: solid #aeafaf;
+#list-border {
+	border-left: solid #dee3ea;
+	border-right: solid #dee3ea;
 	padding-left: 26px;
 	padding-right: 26px;
 }
 
 /* Below Header */
 
-.bottom-div {
+#bottom-div {
 	background-image:url("../images/whirlpool.png");
 	min-height:100%;
-	padding-bottom: 100px;
+	padding-bottom: 150px;
 }
 
 h2 {
@@ -80,7 +83,7 @@ h2 {
 	font-weight: bold;
 }
 
-.main-content {
+#main-content {
 	width:650px;
 	color: #777777;
 	background-color:#ffffff;
@@ -94,7 +97,7 @@ h2 {
 
 /* START Sidebar */
 
-.right-div {
+#right-div {
 	background-color: #ffffff;
 	display: inline;
 	width: 270px;	
@@ -114,9 +117,10 @@ h3 {
 	padding: 20px;
 	padding-top: 17px;
 	margin-left:13px;
+	font-weight: bold;
 }
 
-.right-div img {
+#right-div img {
 	width:48px;
 	height:48px;
 	position: relative;
@@ -129,11 +133,11 @@ h3 {
 
 /* Sticky footer */
 
-.footer {
+#footer {
 	border-top: solid 15px #4aaaa5;
 	background-color:#666666;
 	text-align: center;
-	padding: 20px;
+	padding: 35px;
 	color: #939393;
 }
 
@@ -203,7 +207,7 @@ input {
 
 /* START Portfolio */
 
-.portfolio-img {
+td img {
 	display:inline-block;
 	width: 285px;
 	height: 195px;
@@ -214,12 +218,9 @@ h4 {
 	top: -75px;
 	width:245px;
 	text-align: center;
-	font-family:'Georgia', Times, 'Times New Roman', serif;
-	background-color: #4aaaa5;
-	font-weight: bold;
-	color: #ffffff;
 	margin-right: 0px;
 	padding: 20px;
+	font-size: 16pt;
 }
 
 table {
