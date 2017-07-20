@@ -56,6 +56,11 @@ li {
 	margin: 10px;
 }
 
+li a {
+	text-decoration: none;
+	color: #777777;
+}
+
 #list-border {
 	border-left: solid #dee3ea;
 	border-right: solid #dee3ea;
